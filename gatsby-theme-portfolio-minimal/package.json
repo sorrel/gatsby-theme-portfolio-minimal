@@ -1,6 +1,6 @@
 {
-    "name": "gatsby-theme-portfolio-minimal",
-    "version": "0.1.0",
+    "name": "@sorrel340/gatsby-theme-portfolio-minimal",
+    "version": "0.1.1",
     "license": "MIT",
     "author": "Konstantin Münster <mail@konstantin.digital>",
     "main": "index.js",

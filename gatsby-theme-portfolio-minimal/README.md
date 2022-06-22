@@ -2,6 +2,8 @@
 
 #### A modern one-page portfolio with a clean yet expressive design.
 
+This is a fork of Konstantin's work, which I'm using to learn about Gatsby...
+
 Portfolio Minimal is a Gatsby Theme. You can install it as a dependency in your project and use its building blocks to create your own site - effortless and within minutes.
 
 **Example Project on GitHub**
