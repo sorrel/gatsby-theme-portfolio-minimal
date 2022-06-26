@@ -12,7 +12,7 @@ export enum SocialProfile {
     Mail = 'mail',
     LinkedIn = 'linkedin',
     Twitter = 'twitter',
-    Instagram = 'instragram',
+    Instagram = 'instagram',
     Facebook = 'facebook'
 }
 
