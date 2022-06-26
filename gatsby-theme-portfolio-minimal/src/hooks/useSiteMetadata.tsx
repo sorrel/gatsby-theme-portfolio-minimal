@@ -53,6 +53,8 @@ export const query = graphql`
                         mail
                         medium
                         twitter
+                        instagram
+                        facebook
                     }
                     titleTemplate
                 }
