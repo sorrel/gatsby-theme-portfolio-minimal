@@ -5,4 +5,6 @@ export const socialProfileLabels = {
     linkedin: 'LinkedIn',
     mail: 'Mail',
     twitter: 'Twitter',
+    instagram: 'Instagram',
+    facebook: 'Facebook'
 };
