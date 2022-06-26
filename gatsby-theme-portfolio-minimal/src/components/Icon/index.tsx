@@ -6,6 +6,8 @@ import { IconLinkedIn } from './IconLinkedIn';
 import { IconMail } from './IconMail';
 import { IconMedium } from './IconMedium';
 import { IconTwitter } from './IconTwitter';
+import { IconInstagram} from './IconInstagram';
+import { IconFacebook} from './IconFacebook';
 
 interface IconProps {
     name: string;
@@ -28,6 +30,10 @@ export function Icon(props: IconProps): React.ReactElement | null {
             return <IconMedium color={props.color} />;
         case 'twitter':
             return <IconTwitter color={props.color} />;
+        case 'instagram':
+            return <IconInstagram color={props.color} />;
+        case 'facebook':
+            return <IconFacebook color={props.color} />;
         default:
             return null;
     }
