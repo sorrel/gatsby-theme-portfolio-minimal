@@ -110,7 +110,7 @@ The concept behind themes is easy. You have the theme installed as a npm package
 2. Inside `first-page.js`, we create a React component which will be exported by default. The `FirstPage` component uses the `Page` and `Seo` components which are being imported from the `gatsby-theme-portfolio-minimal` package. While the `Page` component is mandatory to construct a page with Portfolio Minimal, `Seo` isn't (but recommended).
 
     ```js
-    import { Page, Seo } from 'gatsby-theme-portfolio-minimal';
+    import { Page, Seo } from '@sorrel340/gatsby-theme-portfolio-minimal';
 
     export default function FirstPage() {
         return (
@@ -127,7 +127,7 @@ The concept behind themes is easy. You have the theme installed as a npm package
 3. Now that we have our basic page layout set up, we can start adding sections to the page. It basically works the same as before: You import components from the `gatsby-theme-portfolio-minimal` package which then can be configured and used in your page.
 
     ```js
-    import { AboutSection, Page, Seo } from 'gatsby-theme-portfolio-minimal';
+    import { AboutSection, Page, Seo } from '@sorrel340/gatsby-theme-portfolio-minimal';
 
     export default function FirstPage() {
         return (
@@ -204,7 +204,7 @@ If you want to extend your portfolio site with a blog, you can do so easily with
     module.exports = {
         plugins: [
             {
-                resolve: 'gatsby-theme-portfolio-minimal',
+                resolve: '@sorrel340/gatsby-theme-portfolio-minimal',
                 options: {
                     blogSettings: {
                         path: '/blog',
@@ -347,7 +347,7 @@ When adding the `gatsby-theme-portfolio-minimal` package to the array of plugins
 module.exports = {
     plugins: [
         {
-            resolve: 'gatsby-theme-portfolio-minimal',
+            resolve: '@sorrel340/gatsby-theme-portfolio-minimal',
             options: {
                 siteUrl: '', // Used for sitemap generation
                 manifestSettings: {

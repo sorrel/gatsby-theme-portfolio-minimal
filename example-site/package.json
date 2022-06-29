@@ -12,8 +12,8 @@
         "lint": "echo \"Nothing to do here\""
     },
     "dependencies": {
+        "@sorrel340/gatsby-theme-portfolio-minimal": "*",
         "gatsby": "^4.7.1",
-        "gatsby-theme-portfolio-minimal": "*",
         "lmdb": "^2.0.0",
         "msgpackr-extract": "^2.0.2",
         "react": "^18.0.0",

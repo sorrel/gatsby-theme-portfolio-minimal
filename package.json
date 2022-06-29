@@ -36,7 +36,6 @@
         ]
     },
     "dependencies": {
-        "lmdb": "^2.5.2",
-        "lmdb-store": "^1.6.14"
+        "lmdb": "^2.5.2"
     }
 }
