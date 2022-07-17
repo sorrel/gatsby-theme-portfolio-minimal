@@ -145,6 +145,7 @@ module.exports = ({ actions }) => {
     }
     type HeroJson implements Node @dontInfer {
         intro: String
+        heroPhoto: Image
         image: Image
         title: String
         subtitle: HeroSubtitle

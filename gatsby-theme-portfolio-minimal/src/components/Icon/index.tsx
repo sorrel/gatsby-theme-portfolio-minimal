@@ -6,8 +6,8 @@ import { IconLinkedIn } from './IconLinkedIn';
 import { IconMail } from './IconMail';
 import { IconMedium } from './IconMedium';
 import { IconTwitter } from './IconTwitter';
-import { IconInstagram } from './IconInstagram';
-import { IconFacebook } from './IconFacebook';
+import { IconInstagram} from './IconInstagram';
+import { IconFacebook} from './IconFacebook';
 
 interface IconProps {
     name: string;

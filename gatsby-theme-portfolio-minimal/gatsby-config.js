@@ -21,9 +21,55 @@ module.exports = (options) => ({
                 path: options.contentDirectory || path.join('.', 'content'),
             },
         },
-        `gatsby-transformer-remark`,
         `gatsby-transformer-sharp`,
         `gatsby-transformer-json`,
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: {
+                            // It's important to specify the maxWidth (in pixels) of
+                            // the content container as this plugin uses this as the
+                            // base for generating different widths of each image.
+                            maxWidth: 660,
+                            showCaptions: ['title'],
+                            markdownCaptions: true,
+                            withWebp: true,
+                            linkImagesToOriginal: false,
+                            backgroundColor: 'transparent',
+                        },
+                    },
+                    {
+                        resolve: `gatsby-remark-prismjs`,
+                        options: {
+                            // Class prefix for <pre> tags containing syntax highlighting;
+                            // defaults to 'language-' (e.g. <pre class="language-js">).
+                            classPrefix: 'language-',
+                            // This is used to allow setting a language for inline code
+                            // (i.e. single backticks) by creating a separator.
+                            inlineCodeMarker: null,
+                            // This lets you set up language aliases.  For example,
+                            // setting this to '{ sh: "bash" }'
+                            aliases: {},
+                            // This toggles the display of line numbers globally alongside the code.
+                            // To use it, add the following line in gatsby-browser.js
+                            // right after importing the prism color scheme:
+                            //  require("prismjs/plugins/line-numbers/prism-line-numbers.css")
+                            // Defaults to false.
+                            // If you wish to only show line numbers on certain code blocks,
+                            // leave false and use the {numberLines: true} syntax below
+                            showLineNumbers: false,
+                            // By default the HTML entities <>&'" are escaped.
+                            // Add additional HTML escapes by providing a mapping
+                            // of HTML entities and their escape value IE: { '}': '&#123;' }
+                            escapeEntities: {},
+                        },
+                    },
+                ],
+            },
+        },
         options.siteUrl ? `gatsby-plugin-robots-txt` : null,
         options.siteUrl ? `gatsby-plugin-sitemap` : null,
         options.manifestSettings
