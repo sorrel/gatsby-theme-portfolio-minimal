@@ -9,7 +9,7 @@ export default function NotFoundPage(): React.ReactElement {
             <Seo title="404: Not found" noIndex={true} />
             <Page>
                 <Section heading="Not Found" anchor="404">
-                    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+                    <p>You just hit a route that doesn&#39;t exist... sorry about that.</p>
                 </Section>
             </Page>
         </>
