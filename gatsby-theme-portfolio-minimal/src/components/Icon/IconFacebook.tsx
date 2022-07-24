@@ -1,25 +1,25 @@
-import React from 'react';
 
+import React from 'react';
 interface IconFacebookProps {
     color?: string;
 }
-
 export function IconFacebook(props: IconFacebookProps): React.ReactElement {
     return (
         <svg
             version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
+            id="Mail"
             fill={props.color || 'var(--primary-color)'}
+            xmlns="http://www.w3.org/2000/svg"
             x="0px"
             y="0px"
-            viewBox="-237 239 24 24"
+            viewBox="0 0 23 23"
         >
-            <path
-                d="M-234.2,245.9c0-0.3-0.1-0.6-0.3-0.8l-2.2-2.7V242h7l5.4,11.8l4.7-11.8h6.6v0.4l-1.9,1.8c-0.2,0.1-0.2,0.3-0.2,0.5v13.5
-        c0,0.2,0,0.4,0.2,0.5l1.9,1.8v0.4h-9.4v-0.4l1.9-1.9c0.2-0.2,0.2-0.2,0.2-0.5v-10.9l-5.4,13.7h-0.7l-6.3-13.7v9.2
-        c-0.1,0.4,0.1,0.8,0.3,1.1l2.5,3.1v0.4h-7.1v-0.4l2.5-3.1c0.3-0.3,0.4-0.7,0.3-1.1C-234.2,256.5-234.2,245.9-234.2,245.9z"
-            />
+            <g id="XMLID_826_">
+                <path
+                    id="XMLID_827_"
+                    d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"
+                />
+            </g>
         </svg>
     );
 }
