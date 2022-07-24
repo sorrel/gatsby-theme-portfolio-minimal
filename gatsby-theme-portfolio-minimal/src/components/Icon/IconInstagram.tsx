@@ -1,9 +1,9 @@
-
-090a56a
 import React from 'react';
 interface IconInstagramProps {
     color?: string;
 }
+
+export function IconInstagram(props: IconInstagramProps): React.ReactElement
     return (
         <svg
             version="1.1"
