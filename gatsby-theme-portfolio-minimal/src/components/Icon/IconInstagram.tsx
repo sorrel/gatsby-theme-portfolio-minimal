@@ -3,7 +3,7 @@ interface IconInstagramProps {
     color?: string;
 }
 
-export function IconInstagram(props: IconInstagramProps): React.ReactElement
+export function IconInstagram(props: IconInstagramProps): React.ReactElement {
     return (
         <svg
             version="1.1"
@@ -19,3 +19,4 @@ export function IconInstagram(props: IconInstagramProps): React.ReactElement
             </g>
         </svg>
     );
+}

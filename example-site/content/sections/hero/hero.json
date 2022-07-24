@@ -16,7 +16,7 @@
     },
     "description": "A modern portfolio with a minimalistic design.",
     "socialProfiles": {
-        "from": ["LinkedIn", "Medium", "Github", "Mail"],
+        "from": ["LinkedIn", "Medium", "Github", "Mail", "Facebook"],
         "showIcons": false
     }
 }
