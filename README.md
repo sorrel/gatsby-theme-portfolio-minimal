@@ -1,4 +1,4 @@
-# Gatsby Theme Portfolio Minimal - being used in a community website
+# Gatsby Theme Portfolio Minimal -  used in a community website
 
 #### A modern one-page portfolio with a clean yet expressive design.
 
@@ -39,17 +39,3 @@ If the user's OS is set to using dark mode, the Gatsby Starter will automaticall
 #### ✍️ [NEW] Blog Integration - Add your own blog to your portfolio.
 
 Ever dreamed of having your own blog? With Portfolio Minimal, it's possible! Just specify the route where your blog should live and start writing your first articles!
-
----
-
-## Issues?
-
-If you find any bugs or have feature suggestions, create a new issue or pull request 🙏
-
-Thanks a lot for using this theme! 💪
-
----
-
-<a href="https://www.buymeacoffee.com/kmuenster" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-Konstantin Münster – [konstantin.digital](https://konstantin.digital)
